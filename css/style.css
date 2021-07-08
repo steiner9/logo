@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}  
+
+body {
+    background-color: red;
+}
+
+nav ul {
+    display: flex;
+}
+
+#logo {
+    border-radius: 50%;
+    margin: 30px;  
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+p {
+}

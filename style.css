@@ -24,7 +24,6 @@ body {
 nav ul {
     display: flex;
     margin-left: 50%;
-    margin-bottom: 2%;
 }
 
 nav ul li {
@@ -32,6 +31,9 @@ nav ul li {
     margin-right: 2%;
 }
 
+main img {
+    margin-top: 2%;
+}
 h1 {
     text-align: center;
     padding-top: 5%;
@@ -100,10 +102,41 @@ footer {
     color: white;
     background-color: #333631;
     padding-top: 1%;
-
+    padding-bottom: 1%;
+    margin-top: 2%;
 }
 
+form h1 {
+    font-size: 150%;
+}
 
+form dl {
+    padding-left: 35%;
+    padding-right: 35%;
+}
 
+form dl dd input {
+    background-color: #f7f4f5;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
 
+form dl dd textarea {
+    background-color: #f7f4f5;
+    width: 100%;
+    margin-top: 3%;
+    padding-top: 3%;
+    padding-bottom: 80%;
+}
 
+form dl dd button {
+    background-color: #333631;
+    text-align: center;
+    color: white;
+    width: 20%;
+    margin-left: 80%;
+    margin-top: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
